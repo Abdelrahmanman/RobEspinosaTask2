@@ -1,0 +1,40 @@
+body{
+    background-color: #f9f9f9;
+}
+#form, .btnSets{
+    width: 50%;
+    margin: 50px auto 0 auto;
+    padding: 50px;
+    background: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 6px rgba(188, 188, 188, 0.35);
+}
+
+.btnSets{
+    margin-top: 0;
+    padding: 40px 50px;
+    border: 0;
+    background: #f9f9f9;
+}
+form input{
+    outline: 0;
+    border-radius: 6px !important;
+    padding: 5px 20px !important;
+}
+
+#colors input, #fruits input{
+    margin: 0 20px !important;
+}
+
+#fruits{
+    margin-bottom: 50px;
+}
+#fruits div{
+    width: 50%; float: left;
+}
+
+
+.btnSets button{
+    width: 150px;
+    border-radius: 50px;
+}
